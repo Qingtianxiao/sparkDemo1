@@ -20,6 +20,11 @@
         <artifactId>spark-core_2.12</artifactId>
         <version>3.0.0</version>
     </dependency>
+    <dependency>
+        <groupId>org.glassfish</groupId>
+        <artifactId>javax.el</artifactId>
+        <version>3.0.1-b08</version>
+    </dependency>
 
     <dependency>
         <groupId>junit</groupId>
@@ -50,7 +55,11 @@
         <artifactId>hadoop-common</artifactId>
         <version>3.2.0</version>
     </dependency>
-
+    <dependency>
+        <groupId>org.apache.hbase</groupId>
+        <artifactId>hbase-mapreduce</artifactId>
+        <version>2.3.0</version>
+    </dependency>
 
 
     <dependency>
